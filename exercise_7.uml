@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#C:/Users/Hutnik/Desktop/Python Essential/Lesson 2/exercise_7.py</OriginalElement>
+  <nodes>
+    <node x="129.0" y="143.0">exercise_7.vehicle</node>
+    <node x="222.75" y="-15.0">typing.Hashable</node>
+    <node x="486.0" y="143.0">exercise_7.watervehicle</node>
+    <node x="255.25" y="64.0">object</node>
+    <node x="299.0" y="143.0">exercise_7.airvehicle</node>
+    <node x="-110.0" y="143.0">exercise_7.motorizedvehicle</node>
+    <node x="106.60294117647061" y="222.0">exercise_7.helicopter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="exercise_7.helicopter" target="exercise_7.airvehicle" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="192.1029411764706" y="197.0" />
+      <point x="382.5" y="197.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="object" target="typing.Hashable" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="exercise_7.vehicle" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="204.0" y="118.0" />
+      <point x="293.25" y="118.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="exercise_7.helicopter" target="exercise_7.motorizedvehicle" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="192.1029411764706" y="197.0" />
+      <point x="-0.5" y="197.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="exercise_7.motorizedvehicle" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-0.5" y="118.0" />
+      <point x="293.25" y="118.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="exercise_7.airvehicle" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="382.5" y="118.0" />
+      <point x="293.25" y="118.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="exercise_7.watervehicle" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="579.5" y="118.0" />
+      <point x="293.25" y="118.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="281.5" y="118.0" />
+  <SelectedNodes />
+  <Categories />
+</Diagram>
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>exercise_1.ProEditor</OriginalElement>
+  <nodes>
+    <node x="-70.5" y="-15.0">typing.Hashable</node>
+    <node x="-83.0" y="222.0">exercise_1.ProEditor</node>
+    <node x="-38.0" y="64.0">object</node>
+    <node x="-72.0" y="143.0">exercise_1.Editor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="exercise_1.ProEditor" target="exercise_1.Editor" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="object" target="typing.Hashable" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="exercise_1.Editor" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="0.0" y="118.0" />
+  <SelectedNodes />
+  <Categories />
+</Diagram>
+
