@@ -12,7 +12,7 @@ class vehicle():
 class watervehicle(vehicle):
     def __init__(self, age, name):
         super().__init__(age, name)
-        self.is_swim = true
+        self.is_swim = True
 
     def __str__(self):
         return f"водний клас. має характеристики: \n" \
@@ -24,7 +24,7 @@ class watervehicle(vehicle):
 class airvehicle(vehicle):
     def __init__(self, age, name):
         super().__init__(age, name)
-        self.is_fly = true
+        self.is_fly = True
 
     def __str__(self):
         return f"клас літаків. має характеристики: \n" \
@@ -36,7 +36,7 @@ class airvehicle(vehicle):
 class motorizedvehicle(vehicle):
     def __init__(self, age, name):
         super().__init__(age, name)
-        self.is_motorized = true
+        self.is_motorized = True
 
     def __str__(self):
         return f"клас літаків. має характеристики: \n" \
@@ -48,7 +48,7 @@ class motorizedvehicle(vehicle):
 class helicopter(airvehicle, motorizedvehicle):
     def __init__(self, age, name):
         super().__init__(age, name)
-        self.is_motorized = true
+
 
     def __str__(self):
         return f"клас літаків з мотором (гвинтокрили). має характеристики: \n" \
